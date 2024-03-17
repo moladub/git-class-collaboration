@@ -29,7 +29,7 @@ def draw_colorful_spiral(speed, iterations, colors, angle, width_start, width_in
 # Customize the drawing by changing these parameters
 speed = 0            # Speed of the turtle 
 iterations = 36     # Number of iterations to draw the spiral
-colors = ['red', 'orange']  # List of colors to use
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet' ]  # List of colors to use
 angle = 180           # Angle to turn
 width_start = 1      # Starting width of the pen
 width_increment = 0.1  # Increment of the pen width
