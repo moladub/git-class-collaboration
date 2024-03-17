@@ -21,7 +21,6 @@ def draw_colorful_spiral(speed, iterations, colors, angle, width_start, width_in
         t.width(width_start + i * width_increment)
         t.forward(i * length_increment)
         t.left(angle)
-
     # Hide the turtle and display the drawing
     t.hideturtle()
     turtle.done()
@@ -30,7 +29,7 @@ def draw_colorful_spiral(speed, iterations, colors, angle, width_start, width_in
 speed = 0            # Speed of the turtle 
 iterations = 36     # Number of iterations to draw the spiral
 colors = ['red', 'orange']  # List of colors to use
-angle = 180           # Angle to turn
+angle = 60           # Angle to turn
 width_start = 1      # Starting width of the pen
 width_increment = 0.1  # Increment of the pen width
 length_increment = 1  # Increment of the length of each side
